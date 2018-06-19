@@ -1,0 +1,174 @@
+* {
+    text-align: center;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+}
+
+img {
+    height: 96px;
+
+}
+.techimage{
+    height: 200px;
+}
+
+body {
+     font-family: Arial;
+    font-size: 17px;
+     margin: 0;
+    padding: 0;
+    background: #84FFF0;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #47AFFF;
+    text-align: center;
+    padding: 0;
+    margin: 0 4px;
+}
+
+.nav li {
+    font-family: 'Oswald, sans-serif;
+ font-size: 0.8 em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+    margin: 0 4px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #84FFF0;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #6F2DBD;
+}
+
+.nav a:active {
+    background-color: #fff;
+    color: #888;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2em;
+    }
+    /* Option 1 - Display Inline */
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+    /* Options 2 - Float
+.nav li {
+float: left;
+}
+.nav ul{
+overflow: auto;
+width: 600px;
+margin: 0 auto;
+}
+.nav {
+background-color: #444;
+}
+*/
+}
+
+header {
+
+    border: 1px solid green;
+    width: 70%;
+    background-color: azure;
+}
+
+.main {
+    border: 1px solid red;
+    height: 300px;
+
+    width: 98%;
+
+}
+
+
+
+.left2 {
+    width: 33.3%;
+    border: 1px dotted blue;
+    height: 200px;
+    float: left;
+}
+
+.middle2 {
+    width: 33.3%;
+    border: 1px dotted blue;
+    height: 200px;
+    float: left;
+}
+
+.right2 {
+    width: 33.3%;
+    border: 1px solid red;
+    height: 200px;
+    float: left;
+
+}
+
+.copyright2 {
+    width: 100%;
+    color: black;
+    background-color: #faf;
+    height: 80px;
+    float: left;
+    border: 1px solid #000;
+    padding: 4% 0;
+}
+
+
+.resize {
+
+    width: 100%;
+}
+
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
